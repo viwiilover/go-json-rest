@@ -1,6 +1,6 @@
 // A quick and easy way to setup a RESTful JSON API
 //
-// http://ant0ine.github.io/go-json-rest/
+// http://viwii.github.io/go-json-rest/
 //
 // Go-Json-Rest is a thin layer on top of net/http that helps building RESTful JSON APIs easily.
 // It provides fast and scalable request routing using a Trie based implementation, helpers to deal
@@ -12,7 +12,7 @@
 //      package main
 //
 //      import (
-//              "github.com/ant0ine/go-json-rest/rest"
+//              "github.com/viwii/go-json-rest/rest"
 //              "log"
 //              "net/http"
 //      )

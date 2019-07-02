@@ -2,7 +2,7 @@ package rest
 
 import (
 	"bytes"
-	"github.com/ant0ine/go-json-rest/rest/test"
+	"github.com/viwii/go-json-rest/rest/test"
 	"log"
 	"regexp"
 	"testing"
