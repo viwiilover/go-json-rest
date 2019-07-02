@@ -27,6 +27,9 @@ type ResponseWriter interface {
 	// Similar to the http.ResponseWriter interface, with additional JSON related
 	// headers set.
 	WriteHeader(int)
+
+	//Get Raw Http ResponseWriter
+	GetRawHttpResponseWriter() *http.ResponseWriter
 }
 
 // This allows to customize the field name used in the error response payload.
@@ -82,6 +85,10 @@ func (w *responseWriter) EncodeJson(v interface{}) ([]byte, error) {
 		return nil, err
 	}
 	return b, nil
+}
+
+func (w *responseWriter) GetRawHttpResponseWriter() *http.ResponseWriter {
+	return &w.ResponseWriter
 }
 
 // Encode the object in JSON and call Write.
