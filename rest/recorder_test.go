@@ -3,7 +3,7 @@ package rest
 import (
 	"testing"
 
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 )
 
 func TestRecorderMiddleware(t *testing.T) {

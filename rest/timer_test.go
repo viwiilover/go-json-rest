@@ -1,7 +1,7 @@
 package rest
 
 import (
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 	"testing"
 	"time"
 )

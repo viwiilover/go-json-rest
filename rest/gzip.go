@@ -111,7 +111,7 @@ func (w *gzipResponseWriter) Write(b []byte) (int, error) {
 	if w.canGzip {
 		// Write can be called multiple times for a given response.
 		// (see the streaming example:
-		// https://github.com/viwii/go-json-rest-examples/tree/master/streaming)
+		// https://github.com/viwiilover/go-json-rest-examples/tree/master/streaming)
 		// The gzipWriter is instantiated only once, and flushed after
 		// each write.
 		if w.gzipWriter == nil {

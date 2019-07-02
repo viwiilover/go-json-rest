@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 )
 
 func TestFindRouteAPI(t *testing.T) {

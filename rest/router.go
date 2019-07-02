@@ -2,7 +2,7 @@ package rest
 
 import (
 	"errors"
-	"github.com/viwii/go-json-rest/rest/trie"
+	"github.com/viwiilover/go-json-rest/rest/trie"
 	"net/http"
 	"net/url"
 	"strings"

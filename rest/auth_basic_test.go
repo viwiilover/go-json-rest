@@ -2,7 +2,7 @@ package rest
 
 import (
 	"encoding/base64"
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 	"testing"
 )
 

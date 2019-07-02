@@ -3,7 +3,7 @@ package rest
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 	"log"
 	"testing"
 )

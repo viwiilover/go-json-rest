@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/viwii/go-json-rest/rest/test"
+	"github.com/viwiilover/go-json-rest/rest/test"
 )
 
 func TestCorsMiddlewareEmptyAccessControlRequestHeaders(t *testing.T) {

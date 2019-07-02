@@ -8,8 +8,8 @@
 //      package main
 //
 //      import (
-//              "github.com/viwii/go-json-rest/rest"
-//              "github.com/viwii/go-json-rest/rest/test"
+//              "github.com/viwiilover/go-json-rest/rest"
+//              "github.com/viwiilover/go-json-rest/rest/test"
 //              "testing"
 //      )
 //
